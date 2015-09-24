@@ -52,7 +52,7 @@
 			progress: true,
 
 			// Display the page number of the current slide
-			slideNumber: false,
+			slideNumber: true,
 
 			// Push each slide change to the browser history
 			history: false,
@@ -2343,7 +2343,9 @@
 				indexString += ' - ' + indexv;
 			}
 
-			dom.slideNumber.innerHTML = indexString;
+			var numberOfSlides = dom.wrapper.querySelectorAll( SLIDES_SELECTOR ).length;
+
+			dom.slideNumber.innerHTML = indexString + " out of " + numberOfSlides;
 		}
 
 	}
