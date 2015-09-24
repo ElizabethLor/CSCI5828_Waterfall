@@ -60,12 +60,23 @@
 
 				<section>
 					<h2>Index</h2>
+					<ol>
+						<li>History of waterfall model</li>
+						<li>Features of waterfall model</li>
+						<li>Phases of waterfall model</li>
+						<li>Description of each phase</li>
+						<li>Advantages</li>
+						<li>Disadvantages</li>
+						<li>Example of waterfall model</li>
+						<li>Importance to Software Engineering</li>
+						<li>Additional Materials/Fun Facts</li>
+					</ol>
 				</section>
 
 				<section>
 					<h2>History of Waterfall Model</h2>
 					<ul>
-						<li>First formal description of the waterfall model is often cited as a 1970 article by <u>Winston W. Royce</u></li>
+						<li><u>Winston W. Royce</u> 1970 article introduced the description of the waterfall model</li>
 						<ul>
 							<li>The article contained his personal views on software development</li>
 						</ul>
@@ -79,7 +90,9 @@
 					<ul>
 						<li>Illustrates the software development in a linear sequential flow</li>
 						<li>Any phase in the development process begins only if the previous phase is complete</li>
-						<li>Phases do not overlap</li>
+						<ul>
+							<li>Phases do not overlap</li>
+						</ul>
 						<li>One phase acts as the input for the next phase sequentially</li>
 						<li>Royce believed that a successful model should have the allowance to repetition or go back and forth between phases</li>
 					</ul>
@@ -95,7 +108,7 @@
 						<li>Unfortunately this is how science works</li>
 							<ul>
 							    <li>Reserchers just cite something because everyone else does so as well</li>
-							    <li>Don't read the publications</li>
+							    <li>They don't read the publications</li>
 						    </ul>
 						<li>Nonetheless, the waterfall method is widely used in Software Engineering</li>
 					</ul>
@@ -131,17 +144,12 @@
 					<h2>Phases of Waterfall Model</h2>
 					<p>The waterfall model has 5 different phases:</p>
 					<ol>
-						<li>Requirement gathering and Analysis</li>
+						<li>Requirement Gathering and Analysis</li>
 						<li>Design</li>
-						<li>Coding</li>
+						<li>Coding (Implementation)</li>
 						<li>Testing</li>
 						<li>Maintenance</li>
 					</ol>
-				</section>
-
-				<section>
-					<h2>Detail Version of the Waterfall</h2>
-					<p><a href="images/sdlc_waterfall_model.jpg"><img height="518" src="images/sdlc_waterfall_model.jpg"></a></p>
 				</section>
 
 				<section>
@@ -177,7 +185,7 @@
 				</section>
 
 				<section>
-					<h2>Phase 2: System Desgin</h2>
+					<h2>Phase 2: System Design</h2>
 					<p><a href="images/phase2.png"><img height="518" src="images/phase2.png"></a></p>
 				</section>	
 
@@ -190,7 +198,7 @@
 								<li>Helps in specifying hardware and system requirements</li>
 								<li>Helps in defining overall system architecture</li>
 							</ul>
-						<li>Relation between the various logical modules are established</li>
+						<li>Relationship between the various logical modules are established</li>
 						<ul>
 							<li>Algorithms, diagrams, and functions are decided/developed</li>
 							<li>Engineering units are placed (i.e. modules, programs, etc)</li>
@@ -209,104 +217,96 @@
 
 				<section>
 					<h2>Phase 3: Implementation</h2>
-					<p><a href="images/sdlc_waterfall_model_phase3.jpg"><img height="518" src="images/sdlc_waterfall_model_phase3.jpg"></a></p>
+					<p><a href="images/phase3.png"><img height="518" src="images/phase3.png"></a></p>
 				</section>	
 
 				<section>
 					<h2>Phase 3: Implementation</h2>
 					<ul>
-						<li>Input from phase 2, the system is first developed in units</li>
+						<li>With input from phase 2, the system is first developed in units</li>
+						<ul>
+							<li>Software is divided into small module for coding rather than coding the whole software</li>
+							<li>Source code of the program is written</li>
+						</ul>
+						<li>Design is translated into machine readable form</li>
+						<li>Programs are created in this phase</li>
 						<li>Each unit is developed and tested for its functionality (Unit Testing)</li>
-						<li>Source code of the program is written</li>
 					</ul>
 				</section>
 
 				<section>
 					<h2>Phase 4: Testing</h2>
-					<p><a href="images/sdlc_waterfall_model_phase4.jpg"><img height="518" src="images/sdlc_waterfall_model_phase4.jpg"></a></p>
+					<p><a href="images/phase4.jpg"><img height="518" src="images/phase4.jpg"></a></p>
 				</section>	
 
 				<section>
-					<h2>Phase 4: Integration and Testing</h2>
+					<h2>Phase 4: Testing</h2>
 					<ul>
 						<li>Units developed in the phase 3 are integrated into a system after testing of each unit</li>
+						<ul>
+							<li>Ensure error-free and fully meet requirements outlined in phase 1</li>
+						</ul>
 						<li>Post integration the entire system is tested for any faults and failures</li>
+						<li>Tesing done in two parts</li>
+						<ol>
+							<li>Hardware</li>
+							<li>Software</li>
+						</ol>
 						<li>Whole design and its construction is put under a test to check its functionality</li>
-							<ul>
-								<li>Any erros will surface at this point of the process</li>
-							</ul>
+						<ul>
+							<li>Any erros will surface at this point of the process</li>
+						</ul>
 					</ul>
 				</section>
 
 				<section>
-					<h2>Phase 5: Deployment</h2>
-					<p><a href="images/sdlc_waterfall_model_phase5.jpg"><img height="518" src="images/sdlc_waterfall_model_phase5.jpg"></a></p>
+					<h2>Phase 5: Maintenance</h2>
+					<p><a href="images/phase5.jpg"><img height="518" src="images/phase5.jpg"></a></p>
 				</section>	
 
 				<section>
-					<h2>Phase 5: Deployment of System</h2>
+					<h2>Phase 5: Maintenance</h2>
 					<ul>
 						<li>Once testing is complete, the product is deployed in the customer enviornment or released into the market</li>
+						<li>Software development team undertake routine maintenace activities by visting the client site</li>
+						<li>If enhancements or changes are needed, the software process has to be followed all over again</li>
+						<ul>
+							<li>How issues can be fixed</li>
+							<ul>
+								<li>Patches are released to fix issues</li>
+								<li>Better versions are released to enhace the product</li>
+							</ul>
+						</ul>
 					</ul>
 				</section>
 
 				<section>
-					<h2>Phase 6: Maintenance</h2>
-					<p><a href="images/sdlc_waterfall_model_phase6.jpg"><img height="518" src="images/sdlc_waterfall_model_phase6.jpg"></a></p>
-				</section>	
-
-				<section>
-					<h2>Phase 6: Maintenance</h2>
+					<h2>Phase 5 Con't</h2>
 					<ul>
-						<li>Issues occur in the client environment</li>
-						<li>Patches are released to fix issues</li>
-						<li>Better versions are released to enhace the product</li>
-						<li>Maintenace is done to deliver these changes in the customer environment</li>
+						<li>This is usually the longest stage of the software</li>
+						<li>Software is updated to:</li>
+						<ol>
+							<li>Meet the changing customer needs</li>
+							<li>Adapted to accommodate changes in the external environment</li>
+							<li>Correct errors</li>
+							<li>Enhance the efficiency of the software</li>
+						</ol>
 					</ul>
 				</section>
 
 				<section>
-					<h2>Pros and Cons of Waterfall</h2>
-					<table>
-					   	<tr>
-					    	<td>
-					    		<h5><center>Pros<cetner></h5>
-					    		<li>Simple and easy to understand and use</li>
-					         	<li>Allows for departmentalization and control</li>
-					         	<li>Each stage has a deadline</li>
-					         	<li>Product proceed through the development model phase one by one</li>
-					      	</td>
-					      	<td>
-					      		<h5><center>Cons</center></h5>
-					         	<li>Does not allow for much reflection or revision</li>
-					         	<li>Once in testing stage, it is difficult to change something</li>
-					         	<li>Working software is produced late</li>
-					         	<li>High amount of risk and uncertainty</li>
-					      	</td>
-					   	</tr>
-					</table>
+					<h2>Advantages of Waterfall</h2>
+					
 				</section>
 
 				<section>
-					<h2>Pros and Cons Con't</h2>
-					<table>
-					   	<tr>
-					    	<td>
-					    		<h5><center>Pros<cetner></h5>
-					    		<li>Each phase has specific deliverables and review process</li>
-					         	<li>Phases are completed one at a time</li>
-					         	<li>Works well for smaller project</li>
-					         	<li>Easy to arrange tasks</li>
-					      	</td>
-					      	<td>
-					      		<h5><center>Cons</center></h5>
-					         	<li>Not good for complex and object oriented projects</li>
-					         	<li>Bad for long ongoing projects</li>
-					         	<li>Not good for high risk of change</li>
-					         	<li>Difficult to measure progress within stages</li>
-					      	</td>
-					   	</tr>
-					</table>
+					<h2>Disadvantages of Waterfall</h2>
+					
+				</section>
+
+				<section>
+					<h2>Example of Waterfall Model Used</h2>
+					
 				</section>
 
 				<section>
