@@ -68,6 +68,7 @@
 						<li>Advantages</li>
 						<li>Disadvantages</li>
 						<li>Example of Waterfall Model</li>
+						<li>Example of Waterfall Method Flaws</li>
 						<li>Importance to Software Engineering</li>
 						<li>Additional Materials/Fun Facts</li>
 					</ol>
@@ -139,7 +140,7 @@
 				</section>
 
 				<section>
-					<h2>Why Is Waterfall a Flawed Model?</h2>
+					<h2>Why Is Waterfall Flawed?</h2>
 					<ul>
 						<li>Illustrates the software development in a linear sequential flow.</li>
 						<li>One phase acts as the input for the next phase sequentially.</li>
@@ -162,8 +163,7 @@
 						    </ul>
 						<li>Unfortunately this is how science works</li>
 							<ul>
-							    <li>Researchers cite based on "buzz" or popularity from other researchers</li>
-							    <li>They don't read the publications but go off of second-hand research</li>
+							    <li>Researchers cite based on "buzz" or popularity from other researchers and don't read the publications but go off of second-hand research</li>
 						    </ul>
 						<li>Nonetheless, the Waterfall method was widely used in Software Engineering and is still used today though often in modified models</li>
 					</ul>
@@ -539,7 +539,103 @@
 				</section>
 
 				<section>
-					<h2>Importance to Software Engineering</h2>
+					<h2>Example of Waterfall Method Flaws</h2>
+				</section>
+
+				<section>
+					<h2>Product Phase</h2>
+					<ul>
+						<li>Product Phase: Create an internal instant messaging system </li>
+						<li>Product Requirements document created by product manager with client:</li>
+							<ul>
+								<li>Users should be able to send, receive, and reply to messages to other users within the organization</li>
+								<li>Users should be able to see past messages </li>
+								<li>Users should be able to see if other users are available</li>
+								<li>Users can have one of three set profile pictures</li>
+							</ul>
+						<li>Requirement documents will include detailed requirements, user and person scenarios and potential layouts for function.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Analysis Phase</h2>
+					<ul>
+						<li>Analysis: Engineering team takes the requirements from the product team and analyzes them, breaking the documents into sections.</li>
+						<li>Asking questions as needed. Product manager updates document.</li>
+							<ul>
+								<li><font color="red">Except: Product Manager is out of town, thus slowing down communications. Delay: 1 week.</font></li>
+							</ul>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Design Phase</h2>
+					<ul>
+						<li>Design: Engineering team then creates mock-up with both function and database design and workflows.</li>
+
+					</ul>
+				</section>
+
+				<section>
+					<h2>Implementation Phase</h2>
+					<ul>
+						<li>Implementation: The system is developed in units by the engineering team.</li>
+						<li>Each unit is individually created and tested for functionality during Unit Testing.</li>
+						<li>Source code is being written.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Integration and Testing Phase</h2>
+					<ul>
+						<li>Integration and Testing: All units are integrated and the entire system is tested for faults and failures.</li>
+						<li>Entire design and construction is put to test:</li>
+						<ul>
+							<li>Unit testing: Passes</li>
+							<li>System testing: Fails</li>
+							<li>Acceptence testing: Fails</li>
+						</ul>
+						<li><font color="red">Faults have been noticed in 2 units but the errors have not been located. The lead engineer for one of the units has changed companies so others are scrambling to read and fix the code. Pushes timeframe back by 2 weeks.</font></li>
+					</ul>
+				</section>
+
+				<section>
+					<ul>
+						<li><font color="red">Additionally: The client decided they want avatars with editable features for profile pictures. They want to be able to change gender, race, hair and eye color, and add or remove glasses. Pushs timeframe back by 3 more weeks.</font></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Integration and Testing (II)</h2>
+					<ul>
+						<li>The avatar profile picture unit was created too quickly and has a series of errors.</li>
+						<li>The client deems the design "clunky" and wants to alter the look of the GUI.</li>
+						<li>Also, the client needs it to be compatible with iPads.</li>
+						<li>Pushes timeframe back by 4 weeks.</li>
+						<li>Client decides they don't want avatar profile picutres, just make it so that users can update a photo from their desktop.</li>
+						<li>Another fault is located.</li>
+						<li>Timeframe goes back another 2 weeks.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Deployment of the System Phase</h2>
+					<ul>
+						<li>Deployment: Finally the functional and nonfunctional tests are passed.</li>
+						<li>The product is deployed to the custormer environment.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Maintenance Phase</h2>
+					<ul>
+						<li>Maintenance Phase: Engineers must begin to fix the bugs that users have discovered. </li>
+						<li><font color="red">Additionally, the users have requested that the profile pictures as circles not squares, and can they be animated .gifs?</font></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Importance to SE</h2>
 					<ul>
 						<li>The waterfall method offers numerous advantages for software developers.</li>
 						<ul>
