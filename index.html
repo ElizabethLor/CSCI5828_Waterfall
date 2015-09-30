@@ -41,6 +41,11 @@
 		table, td, th {
 		    border: 1px solid black;
 		}
+
+		ul {
+			font-size: 10px;
+		}
+
 		</style>
 
 	</head>
@@ -112,6 +117,15 @@
 				</section>
 
 				<section>
+				<h2>Winston Royce Article</h2>
+					<ul>
+						<li>Royce demonstrated that there was an inherent risk in a single-pass sequential approach.</li>
+						<li>He suggested that projects pass through an iterative and incremental approach at least twice.</li>
+						<center><img height="400" src="images/royce_waterfall.png"></center>
+					</ul>
+				</section>
+
+				<section>
 					<h2>Royce's Recommendations</h2>
 					<ul>
 						<li>Royce proposed a more incremental development, where every next step links back to the step before.</li>
@@ -125,6 +139,7 @@
 								<li>Plan, control and monitor testing</li>
 								<li>Involve the customer</li>
 							</ol>
+						<li>Alternatively, Royce proposed a more incremental development where every next step links back to the step before.</li>
 						</ul>
 					</ul>
 				</section>
@@ -649,18 +664,14 @@
 								<li>Staged development cycle enforces discipline.</li>
 								<li>The developer and client can identify the progress of the project.</li>
 							</ul>
-						<li>Attempt to break down the complexity of large software programs and abstract concepts.</li>
-						<ul>
-							<li>Can make software engineering seem simple and accessible for new engineers and teams.</li> 
-						</ul>	
+						<li>Can make software engineering seem simple and accessible for new engineers and teams.</li> 	
 					</ul>
 				</section>
 
 				<section>
 					<h2>Importance to SE Con't</h2>
 					<ul>
-						<li>Can catch and correct flaws at the design stage rather at the testing stage.</li>
-						<li>Emphasis on requirements and design before coding.</li>
+						<li>Emphasis on requirements and design before coding to catch and correct flaws at the design phase rather than testing phase.</li>
 							<ul>
 								<li>Ensure minimal time and effort wastage.</li>
 								<li>Reduce risk of customer expectations not being met.</li>
@@ -676,17 +687,18 @@
 				<section>
 					<h2>Importance to Software Engineering Con't</h2>
 					<ul>
-						<li>Software engineering is about models.</li>
-						<ul>
-							<li>A program is a model.</li>
-							<li>Even at the assembly level, programming is constructing a model.</li>
-							<li>Modeling is the way humans deal with complexity.</li>
-							<li>Modeling helps humans reduce and understand the project.</li>
-						</ul>
+						<li>Attempt to break down the complexity of large software programs and abstract concepts.</li>
 						<li>Domain capturing is one of the hardest part of the engineering process.</li>
-						<ul>
-							<li>To understand it, models are needed.</li>
-						</ul>
+							<ul>
+								<li>To understand it, models are needed.</li>
+							</ul>						
+						<li>Software engineering is about models.</li>
+							<ul>
+								<li>A program is a model.</li>
+								<li>Even at the assembly level, programming is constructing a model.</li>
+								<li>Modeling is the way humans deal with complexity.</li>
+								<li>Modeling helps humans reduce and understand the project.</li>
+							</ul>
 					</ul>
 				</section>
 
@@ -703,35 +715,6 @@
 						<li><a href="documents/Waterfall_vs_Agile_Methodology.pdf">Waterfall vs. Agile (click for article)</a></li>
 						<ul>
 							<li>These two methods are the most prominent methods when it comes to developing software.</li>
-						</ul>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Winston Royce Article</h2>
-					<ul>
-						<li>Royce demonstrated that there was an inherent risk in a single-pass sequential approach.</li>
-						<li>He suggested that projects should pass through an iterative and incremental approach at least twice.</li>
-						<center><img height="400" src="images/royce_waterfall.png"></center>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Winston Royce Article Con't</h2>
-					<ul>
-						<li>Royce pictured the waterfall model with the following 7 steps:</li>
-						<ol>
-							<li>System Requirements</li>
-							<li>Software Requirements</li>
-							<li>Analysis</li>
-							<li>Program Design</li>
-							<li>Coding</li>
-							<li>Testing</li>
-							<li>Operation</li>
-						</ol>
-						<li>Models without iteration is "risky and invites failure"</li>
-						<ul>
-							<li>Alternatively, Royce proposed a more incremental development where every next step links back to the step before.</li>
 						</ul>
 					</ul>
 				</section>
@@ -768,7 +751,7 @@
 						</ul>
 						<li>Another important feature of the sashimi model is the different treatment of the documentation.</li>
 						<ul>
-							<li>The model treats the documentation as unified documents</li>
+							<li>The model treats the documentation as a unified document.</li>
 							<li>This results in a significant reduction in the documentation volume.</li>
 						</ul>
 					</ul>
@@ -826,8 +809,9 @@
 						<ul>
 							<li>Does it really matter?</li>
 							<li>Doesn't either way give you a product?</li>
+							<li>Different life cycles are good for different projects.</li>
 						</ul>
-						<li>Both models have their strength and weakness.</li>
+						<li>Both models have their strengths and weaknesses.</li>
 					</ul>
 				</section>
 
@@ -855,7 +839,7 @@
 							<td>Is best for those who want continuous improvements</td>
 						</tr>
 						<tr>
-							<td>Is more for internal</td>
+							<td>Is more for internal work</td>
 							<td>Involved customers interactions</td>
 						</tr>
 					</table>
@@ -917,9 +901,9 @@
 				<section>
 					<h2>Summary</h2>
 					<ul>
-						<li>The waterfall model was introduced by Winston W. Royce.</li>
+						<li>The waterfall model was formally introduced by Winston W. Royce.</li>
 						<ul>
-							<li>It was suppose to be an example of a flawed, non-working model.</li>
+							<li>It was supposed to be an example of a flawed, non-working model.</li>
 						</ul>
 						<center><img height="400" src="images/original_waterfall_model.png"></center>
 					</ul>
@@ -971,16 +955,19 @@
 				<section>
 					<h2>Summary Con't</h2>
 					<ul>
-						<li>The waterfall model has its advatnages and disadvantages.</li>
+						<li>The waterfall model has its advantages and disadvantages.</li>
 						<ul>
 							<li>The fulfillment of one phase is needed before proceeding to the next...BUT</li>
-							<li>It does not allow much for reflection or revision.</li>
+								<ul>
+									<li>It does not allow much for reflection or revision.</li>
+								</ul>	
 						</ul>
-						<li>It is important to Software Engineering by having an emphasis on requirements and design before coding.</li>
+						<li>It is important to Software Engineering because of the emphasis on requirements and design before coding.</li>
 							<ul>
 								<li>This ensure minimal wastage of time and effort.</li>
 								<li>Modeling helps humans reduce and understand the project.</li>
 							</ul>
+						<li>It provides a structured, simple, and relatively easy to follow model for engineering teams.</li>
 					</ul>
 				</section>
 
